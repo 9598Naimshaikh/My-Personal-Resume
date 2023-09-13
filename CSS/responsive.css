@@ -1,0 +1,15 @@
+
+@media (max-width: 800px) {
+    .main
+    {
+        margin: 20px 30px;
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .main
+    {
+        margin: 18px 20px;
+    }
+}
