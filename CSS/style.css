@@ -1,4 +1,3 @@
-
 *
 {
     margin: 0;
@@ -6,44 +5,49 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body
 {
     background-color: #e0e0e0;
 }
 
-.main
-{
+.main{
     margin: 50px 80px;
     padding: 30px 40px;
     border-radius: 21px;
     background: #e0e0e0;
-    box-shadow:  5px 5px 8px #bebebe,
-             -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #bebebe,
+        -5px -5px 8px #ffffff;
 }
 
 .resume .name
 {
     margin: 2px 0;
 }
+
 .resume .roll
 {
     color: purple;
     margin: 2px 0 8px 0;
 }
+
 .resume .Details
 {
     list-style: none;
 }
+
 .resume .Details li
 {
     margin: 7px 0;
 }
+
 .resume .Details li a{
     text-decoration: none;
     color: black;
     font-size: 12px;
     font-weight: 600;
 }
+
 .resume .Details li a ion-icon{
     color: purple;
 }
@@ -51,16 +55,17 @@ body
 
 /* OBjective css */
 
-.resume .object
-{
+.resume .object{
     margin: 15px 0;
 }
+
 .resume .object h3{
     border-bottom: 2px solid black;
     text-transform: uppercase;
     font-size: 16px;
     margin: 0 0 7px 0;
 }
+
 .resume .object p{
     font-size: 15px;
     letter-spacing: 0.7px;
@@ -69,23 +74,25 @@ body
 
 /* Education css */
 
-.resume .education h3
-{
+.resume .education h3{
     border-bottom: 2px solid black;
     text-transform: uppercase;
     font-size: 16px;
     margin: 0 0 7px 0;
 }
+
 .resume .education p:nth-child(2){
     font-size: 15px;
     color: purple;
     font-weight: 600;
     margin: 5px 0;
 }
+
 .resume .education p:nth-child(4){
     font-size: 13px;
     margin: 5px 0;
 }
+
 .resume .education .c-name{
     font-size: 14px;
 }
@@ -93,23 +100,22 @@ body
 
 /* Skills css */
 
-.resume .skill
-{
+.resume .skill{
     margin: 15px 0;
 }
+
 .resume .skill p{
     font-size: 15px;
     letter-spacing: 0.8px;
     border-radius: 8px;
     background: #e0e0e0;
-    box-shadow:  5px 5px 8px #bebebe,
-             -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #bebebe,
+        -5px -5px 8px #ffffff;
     margin: 15px 0;
     padding: 12px 10px;
 }
 
-.resume .skill h3
-{
+.resume .skill h3{
     border-bottom: 2px solid black;
     text-transform: uppercase;
     font-size: 16px;
@@ -122,22 +128,26 @@ body
     height: 100%;
     margin: 15px 0;
 }
+
 .resume .language h3{
     border-bottom: 2px solid black;
     text-transform: uppercase;
     font-size: 16px;
     margin: 0 0 7px 0;
 }
+
 .resume .language .lang .first-lang .first p, .second-lang .first p{
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.8px;
     margin-top: 10px;
 }
+
 .resume .language .lang .first-lang .first span, .second-lang .first span{
     font-size: 13px;
     letter-spacing: 0.8px;
 }
+
 .resume .language .lang .first-lang{
     display: flex;
     align-items: center;
@@ -146,11 +156,12 @@ body
     letter-spacing: 0.8px;
     border-radius: 8px;
     background: #e0e0e0;
-    box-shadow:  5px 5px 8px #bebebe,
-             -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #bebebe,
+        -5px -5px 8px #ffffff;
     margin: 15px 0;
     padding: 12px 10px;
 }
+
 .resume .language .lang .second-lang{
     display: flex;
     align-items: center;
@@ -159,8 +170,8 @@ body
     letter-spacing: 0.8px;
     border-radius: 8px;
     background: #e0e0e0;
-    box-shadow:  5px 5px 8px #bebebe,
-             -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #bebebe,
+        -5px -5px 8px #ffffff;
     margin: 15px 0;
     padding: 12px 10px;
 }
@@ -173,12 +184,14 @@ body
     margin-right: 25px;
 
 }
+
 .resume .language .lang .first-lang .second p{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: rgb(34, 34, 253);
 }
+
 .resume .language .lang .second-lang .second{
     display: flex;
     align-items: center;
@@ -186,18 +199,21 @@ body
     gap: 6px;
     margin-right: 25px;
 }
+
 .resume .language .lang .second-lang .second p{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: rgb(34, 34, 253);
 }
+
 .resume .language .lang .second-lang .second p:nth-child(4){
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: rgb(193, 193, 202);
 }
+
 .resume .language .lang .second-lang .second p:nth-child(5){
     width: 20px;
     height: 20px;
@@ -208,16 +224,17 @@ body
 
 /* Projects CSS */
 
-.resume .projects
-{
+.resume .projects{
     margin: 15px 0;
 }
+
 .resume .projects h3{
     border-bottom: 2px solid black;
     text-transform: uppercase;
     font-size: 16px;
     margin: 0 0 7px 0;
 }
+
 .resume .projects ol li{
     list-style: none;
     margin: 8px 0;
@@ -225,11 +242,12 @@ body
     letter-spacing: 0.8px;
     border-radius: 8px;
     background: #e0e0e0;
-    box-shadow:  5px 5px 8px #bebebe,
-             -5px -5px 8px #ffffff;
+    box-shadow: 5px 5px 8px #bebebe,
+        -5px -5px 8px #ffffff;
     margin: 15px 0;
     padding: 12px 10px;
 }
+
 .resume .projects ol li a{
     color: black;
     font-size: 15px;
